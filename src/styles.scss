@@ -1,1 +1,147 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
+  opacity: .8;
+  color: #444;
+  list-style-type: none;
+}
+
+.btn {
+  padding: 10px 15px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  color: #dfc4c4;
+}
+
+.img-wrapper img.no-box-shadow {
+  box-shadow: 0 3px 8px rgb(173 181 189 / 6%), 0 0 10px rgb(173 181 189 / 19%) !important;
+  border-radius: 50%;
+  width: 170px;
+}
+
+.eco {
+  background-color: #f7fcf6;
+}
+
+.parallax {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.32);
+}
+
+.big-title {
+  font-weight: 300;
+  letter-spacing: 10px;
+  font-size: 40px;
+  color: #dfc4c4;
+}
+
+.sub-title {
+  top: -21px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 74px;
+  letter-spacing: 2px;
+  color: #dfc4c321;
+  width: 100%;
+}
+
+.header-content {
+  span {
+    font-size: 62px;
+    text-transform: uppercase;
+    position: relative;
+    top: -40px;
+    z-index: 1;
+    font-weight: 700;
+    color: #ffe6e4;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav.page-navbar {
+    padding: 0 20px;
+  }
+
+  .title-nav {
+    display: none !important;
+  }
+
+  .header {
+    .header-content {
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      h6 {
+        font-size: 52px;
+      }
+
+      span {
+        font-size: 28px;
+        top: -19px;
+      }
+    }
+  }
+
+  .big-title {
+    font-size: 12px;
+  }
+
+  .sub-title {
+    font-size: 30px;
+    top: -11px;
+  }
+
+  .valeurs .title-valeurs {
+    font-size: 10px !important;
+    margin-bottom: 2em;
+  }
+}
+
+
+.valeurs {
+  .fas {
+    color: #dfc4c4;
+  }
+
+  .title-valeurs {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}

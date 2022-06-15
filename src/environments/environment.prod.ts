@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  mailContact: 'https://anatomiedunegarderobe.com/contactMail.php'
 };
