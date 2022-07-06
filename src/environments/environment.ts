@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  mailContact: 'https://anatomiedunegarderobe.com/contactMail.php'
+  mailContact: 'https://anatomiedunegarderobe.com/landing/contactMail.php'
 };
 
 /*

@@ -21,7 +21,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
 		 $headers .= "Content-type: text/html; charset= utf8\n";
 		 $headers .= "From: anatomiedunegarderobe.com  <noreply@anatomiedunegarderobe.com>";
 
-		 $to = 'contact@anatomiedunegarderobe.com';
+		 $to = 'dpw.contact@gmail.com';
 
 		 $subject = 'Prise de contact sur anatomiedunegarderobe.com';
 

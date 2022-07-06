@@ -61,19 +61,21 @@ li {
 }
 
 .big-title {
+  font-family: 'Anton', sans-serif;
   font-weight: 300;
   letter-spacing: 10px;
   font-size: 40px;
-  color: #dfc4c4;
+  color: #6d1009;
 }
 
 .sub-title {
-  top: -21px;
+  font-family: 'Anton', sans-serif;
+  top: -27px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 74px;
+  font-size: 85px;
   letter-spacing: 2px;
-  color: #dfc4c321;
+  color: #8c443e17;
   width: 100%;
 }
 
@@ -118,12 +120,11 @@ li {
   }
 
   .big-title {
-    font-size: 12px;
+    font-size: 25px;
   }
 
   .sub-title {
-    font-size: 30px;
-    top: -11px;
+    display: none;
   }
 
   .valeurs .title-valeurs {
@@ -143,5 +144,18 @@ li {
     font-weight: 300;
     letter-spacing: 2px;
     text-transform: uppercase;
+  }
+}
+
+.link-quiz {
+  font-family: 'Anton', sans-serif;
+
+  .quiz {
+    font-family: 'Poppins', sans-serif;
+    background-color: #6d1009;
+    color: white;
+    font-weight: bold;
+    padding: 0px 20px;
+    border-radius: 5px;
   }
 }
