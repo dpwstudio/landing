@@ -36,7 +36,8 @@
   }
 
   h1,
-  p, span {
+  p,
+  span {
     position: relative;
     z-index: 1;
     color: white;
@@ -45,10 +46,14 @@
   h1 {
     font-size: 30px;
     margin-bottom: 40px;
+    z-index: 1;
+    color: white;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
   }
 
   p {
-    font-size: 15px;
+    font-size: 22px;
     margin: 20px 0 40px;
   }
 
@@ -60,4 +65,16 @@
 
 video {
   border-radius: 15px;
+}
+
+
+@media screen and (max-width: 500px) {
+  #about {
+    padding-bottom: 20px;
+  }
+
+  #reflexion {
+    padding-top: 40px;
+  }
+  
 }
