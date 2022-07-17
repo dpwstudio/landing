@@ -84,7 +84,7 @@
               une seconde vie aux autres?</b></p>
         </div>
       </div>
-      <p class="link-quiz mt-4">Pour un diagnostic gratuit de vos besoins appelez moi
+      <p class="link-quiz mt-4 text-center">Pour un diagnostic gratuit de vos besoins appelez moi
         <a class="quiz ml-2" href="tel:0660968637">👉 ICI 💫</a>
       </p>
     </div>
@@ -144,8 +144,10 @@
     <!-- Row -->
     <div class="row justify-content-between align-items-center">
       <div class="col-md-8">
-        <h1 class="position-relative" style="">Nous apportons des solutions sur mesure <br>à toutes les problématiques de garde-robe des femmes</h1>
-        <p class="position-relative" style="z-index: 1;">Qu’est-ce qu’on va faire ensemble ? <br> Un état des lieux des vêtements stockés dans le dressing, se servir
+        <h1 class="position-relative">Nous apportons des solutions sur mesure <br>à toutes les problématiques
+          de garde-robe des femmes</h1>
+        <p class="position-relative" style="z-index: 1;">Qu’est-ce qu’on va faire ensemble ? <br> Un état des lieux des
+          vêtements stockés dans le dressing, se servir
           de
           l’existant, trier, réparer, vendre, et toujours des conseils sur mesure pour mettre votre style et votre
           potentiel
@@ -155,10 +157,13 @@
           Nous vendons pour vous tous les vêtements dont vous décidez de vous séparer
           (et oui vous allez gagner de l’argent!).
         </p>
-        <h5 class="position-relative" style="z-index: 1; color: white;font-size: 23px;">Pour que s’habiller (re)devienne un plaisir et une force</h5>
+        <h5 class="position-relative" style="z-index: 1; color: white;font-size: 23px;">Pour que s’habiller (re)devienne
+          un plaisir et une force</h5>
       </div>
       <div class="col-md-4">
-        <video controls height="500" class="position-relative" style="z-index: 1;">
+        <img src="assets/videos/imgvideo3.png" alt="" height="500" class="position-relative"
+          style="border-radius: 15px; z-index: 1;" *ngIf="!showVideo3" (click)="showVideo3 = !showVideo3">
+        <video controls height="500" class="position-relative" style="z-index: 1;" *ngIf="showVideo3">
           <source src="assets/videos/video3.mp4" type="video/mp4">
         </video>
       </div>
@@ -201,8 +206,7 @@
             ». Yves Saint Laurent</b>
         </p>
 
-        <p class="link-quiz">Pour en savoir plus sur vos vrais besoins en matière de garde-robe et recevoir un
-          diagnostique gratuit, remplissez le petit questionnaire
+        <p class="link-quiz">Pour recevoir un diagnostic gratuit, remplissez le questionnaire
           <a class="quiz" target="_blank" href="https://tally.so/r/wQK2eA">👉 ICI 💫</a>
         </p>
       </div>
@@ -217,7 +221,7 @@
     <!-- Row -->
     <div class="row justify-content-between align-items-center">
       <div class="col-md-5">
-        <p><b>7 milliards et demi d’êtres humains sur terre.</b> 
+        <p><b>7 milliards et demi d’êtres humains sur terre.</b>
           Nous avons tous une chose en commun:
           Tous les matins, nous nous habillons.
 
@@ -243,12 +247,16 @@
     <!-- Row -->
     <div class="row justify-content-center align-items-center">
       <div class="col-md-4 text-center">
-        <video controls height="500">
+        <img src="assets/videos/imgvideo1.png" alt="" height="500" class="position-relative"
+          style="border-radius: 15px; z-index: 1;" *ngIf="!showVideo1" (click)="showVideo1 = !showVideo1">
+        <video controls height="500" *ngIf="showVideo1">
           <source src="assets/videos/video1.mp4" type="video/mp4">
         </video>
       </div>
       <div class="col-md-4 text-center">
-        <video controls height="500">
+        <img src="assets/videos/imgvideo2.png" alt="" height="500" class="position-relative"
+          style="border-radius: 15px; z-index: 1;" *ngIf="!showVideo2" (click)="showVideo2 = !showVideo2">
+        <video controls height="500" *ngIf="showVideo2">
           <source src="assets/videos/video2.mp4" type="video/mp4">
         </video>
       </div>
@@ -279,8 +287,7 @@
     <div class="row justify-content-between align-items-center">
       <div class="col-md-5">
         <h6 class="title mb-3">J’adore aider les femmes.</h6>
-        <p>Je les accompagne à organiser leur garde-robe et optimiser leur potentiel pour libérer leur énergie
-          positive et aller de l’avant dans leurs projets professionnels comme personnels.
+        <p>Je les accompagne à organiser leur garde-robe et optimiser leur potentiel pour aller de l’avant dans leurs projets professionnels comme personnels.
         </p>
         <p>Je pense que plus de femmes au pouvoir est la clef pour construire un monde inclusif plus juste
         </p>
@@ -314,7 +321,8 @@
         <h6 class="title mb-3">On produit en France chaque année<br> 700 000 tonnes de vêtements
         </h6>
 
-        <p>Pollution à outrance, détresse économique de ceux qui fabriquent à l'autre bout du monde, pour vous faire acheter toujours plus de vêtements.
+        <p>Pollution à outrance, détresse économique de ceux qui fabriquent à l'autre bout du monde, pour vous faire
+          acheter toujours plus de vêtements.
           Au travers de mon parcours dans les coulisses de la mode j’ai été témoin de ce qu’on appelle la
           fast-fashion</p>
         <p>Si vous avez envie de changer les choses, d'avoir une garde-robe plus respectueuse de la planète mais que
@@ -323,8 +331,9 @@
           utiliser
           ce que vous possédez déjà, vous repérer et faire les choix de vêtements qui sont vraiment faits pour vous
         </p>
-        <p>Anatomie d'Une Garde-Robe est une entreprise de la coalisation des entreprises d'En Mode Climat et Membre de
-          la Fashiongreenhub</p>
+        <p><b>Anatomie d'Une Garde-Robe</b> est une entreprise de la coalisation des entreprises d'<b>En Mode Climat</b>
+          et membre de
+          la <b>Fashiongreenhub</b></p>
         <div class="d-flex justify-content-around align-items-center">
           <img src="assets/imgs/logo-fashion-green.png" alt="" width="250">
           <img src="assets/imgs/logo-en-mode-climat.jpeg" style="border-radius: 50%;" width="90">
@@ -347,7 +356,9 @@
       <div class="col-sm-10 col-md-4 m-auto">
       </div>
       <div class="col-sm-10 col-md-4 m-auto">
-        <video controls height="500">
+        <img src="assets/videos/imgvideo4.png" alt="" height="500" class="position-relative"
+          style="border-radius: 15px; z-index: 1;" *ngIf="!showVideo4" (click)="showVideo4 = !showVideo4">
+        <video controls height="500" *ngIf="showVideo4">
           <source src="assets/videos/video-temoignage.mp4" type="video/mp4">
         </video>
       </div>

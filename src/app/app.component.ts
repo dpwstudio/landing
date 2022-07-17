@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'landing';
+  showVideo1 = false;
+  showVideo2 = false;
+  showVideo3 = false;
+  showVideo4 = false;
 }
